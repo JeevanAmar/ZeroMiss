@@ -133,7 +133,6 @@ body {
         <div class="badge">Zero Errors</div>
     </div>
 
-    <!-- 🔥 Replace with your RAW GitHub .user.js link -->
     <a class="install-btn" 
        href="https://raw.githubusercontent.com/JeevanAmar/ZeroMiss/main/zeromiss.user.js">
         Install ZeroMiss
@@ -147,8 +146,7 @@ body {
 
     <div class="divider"></div>
 
-    <!-- 👇 Make sure image name matches exactly (case sensitive) -->
-    <img src="profile.png" class="profile-img" alt="Developer Photo">
+    <img src="Jeevan.png" class="profile-img" alt="Developer Photo">
 
     <div class="alias">Jeevan</div>
     <div class="role">@jetjeev | Developer</div>
@@ -162,3 +160,4 @@ body {
 </body>
 
 </html>
+
