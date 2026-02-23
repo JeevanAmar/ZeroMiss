@@ -135,7 +135,7 @@ body {
 
     <!-- 🔥 Replace with your RAW GitHub .user.js link -->
     <a class="install-btn" 
-       href="PASTE_RAW_GITHUB_SCRIPT_LINK_HERE">
+       href="https://raw.githubusercontent.com/JeevanAmar/ZeroMiss/main/zeromiss.user.js">
         Install ZeroMiss
     </a>
 
@@ -160,4 +160,5 @@ body {
 </div>
 
 </body>
+
 </html>
