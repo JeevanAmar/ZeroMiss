@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ZeroMiss | Installer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #111827, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    width: 460px;
+    padding: 50px 40px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.logo span {
+    color: #ff3b3b;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #9ca3af;
+    margin: 15px 0 30px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.badge {
+    background: rgba(255,255,255,0.08);
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #e5e7eb;
+}
+
+.install-btn {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    text-decoration: none;
+    background: linear-gradient(90deg, #ff3b3b, #ff0000);
+    color: white;
+    transition: 0.3s;
+}
+
+.install-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(255,0,0,0.4);
+}
+
+.steps {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #9ca3af;
+    line-height: 1.7;
+}
+
+.divider {
+    margin: 35px 0;
+    height: 1px;
+    background: rgba(255,255,255,0.1);
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff3b3b;
+    margin-bottom: 15px;
+}
+
+.alias {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.role {
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+.version {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #6b7280;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        ZERO<span>MISS</span>
+    </div>
+
+    <div class="tagline">
+        Detect Every Critical Keyword. Miss Nothing.
+    </div>
+
+    <div class="features">
+        <div class="badge">100% Coverage</div>
+        <div class="badge">Real-Time Scan</div>
+        <div class="badge">Zero Errors</div>
+    </div>
+
+    <!-- 🔥 Replace with your RAW GitHub .user.js link -->
+    <a class="install-btn" 
+       href="PASTE_RAW_GITHUB_SCRIPT_LINK_HERE">
+        Install ZeroMiss
+    </a>
+
+    <div class="steps">
+        1. Click Install<br>
+        2. Tampermonkey will open<br>
+        3. Confirm installation
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- 👇 Make sure image name matches exactly (case sensitive) -->
+    <img src="profile.png" class="profile-img" alt="Developer Photo">
+
+    <div class="alias">Jeevan</div>
+    <div class="role">@jetjeev | Developer</div>
+
+    <div class="version">
+        Version 1.0 | Internal Deployment
+    </div>
+
+</div>
+
+</body>
+</html>
